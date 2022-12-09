@@ -2,11 +2,11 @@ import os
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5804982110:AAEVWwWxZm2_Wk7QqM1JSY1AwZxPgdFU3tg")
     
-    API_ID = int(os.environ.get("API_ID", 12345))
+    API_ID = int(os.environ.get("API_ID", 20462802))
     
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("dd98d5b8a57cf65d450b746a9c9052af")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
@@ -24,10 +24,10 @@ class Config(object):
     
     PROCESS_MAX_TIMEOUT = 3600
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "308378488"))
 
-    SESSION_NAME = "UploadLinkToFileBot"
+    SESSION_NAME = "bokepup_bot"
     
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://savidnet:<password>@cluster0.i3xipy0.mongodb.net/?retryWrites=true&w=majority")
 
     MAX_RESULTS = "50"
