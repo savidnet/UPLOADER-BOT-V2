@@ -28,6 +28,6 @@ class Config(object):
 
     SESSION_NAME = "bokepup_bot"
     
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://savidnet:<password>@cluster0.i3xipy0.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://savidnet:savidnet@cluster0.i3xipy0.mongodb.net/?retryWrites=true&w=majority")
 
     MAX_RESULTS = "50"
